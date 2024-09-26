@@ -4,6 +4,11 @@
 close all;
 clear all;
 clc;
+
+finalscoresexample = readtable("final_scores_example.xlsm","ReadRowNames",true,ReadVariableNames=true);
+finalscoresexample = table2array(finalscoresexample);
+finalscoresexample(isnan(finalscoresexample)) = 0;
+
 %
 % Part A) Import Data - final_scores_example.xlsm
 %
