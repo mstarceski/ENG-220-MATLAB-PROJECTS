@@ -2,7 +2,7 @@
 % file i/o
 %
 close all;
-clear all;
+% clear all;
 %
 % Part B) Process Imported Data - final_scores_example.xlsm
 %
